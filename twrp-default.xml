@@ -41,7 +41,10 @@
     <remove-project name="platform/system/vold" />
 
     <!-- TWRP recovery source. -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp-16.0" revision="twrp-16.0"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp-16.0" revision="lvgl"/>
+
+    <!-- LVGL source for gui2. -->
+    <project path="external/lvgl" name="android_external_lvgl" remote="twrp-16.0" revision="lvgl"/>
 
     <!-- AOSP forks required for the recovery build. -->
     <project path="build/make" name="android_build" remote="twrp-16.0" revision="twrp-16.0">
