@@ -88,8 +88,8 @@
     <project path="system/sepolicy" name="android_system_sepolicy" remote="twrp-16.0" revision="twrp-16.0"/>
     <project path="system/security" name="android_system_security" remote="twrp-16.0" revision="twrp-16.0"/>
     <project path="system/update_engine" name="android_system_update_engine" remote="twrp-16.0" revision="twrp-16.0"/>
-    <!-- Use the device owner's vold fork with AIDL Weaver recovery support. -->
-    <project path="system/vold" name="Yamada0001/android_system_vold" remote="github" revision="ebc5e3f"/>
+    <!-- Pin the tested Weaver slot parser, client validation and synthetic password authentication fixes. -->
+    <project path="system/vold" name="Yamada0001/android_system_vold" remote="github" revision="fb4a5135c684ff3a22efee525e0f83418c23ab9f"/>
 
     <!-- TWRP vendor build configuration. -->
     <project path="vendor/twrp" name="android_vendor_twrp" remote="twrp-16.0" revision="twrp-16.0" />
