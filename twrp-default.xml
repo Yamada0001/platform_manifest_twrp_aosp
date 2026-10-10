@@ -89,7 +89,7 @@
     <project path="system/security" name="android_system_security" remote="twrp-16.0" revision="twrp-16.0"/>
     <project path="system/update_engine" name="android_system_update_engine" remote="twrp-16.0" revision="twrp-16.0"/>
     <!-- Pin the tested Weaver slot parser, client validation and synthetic password authentication fixes. -->
-    <project path="system/vold" name="Yamada0001/android_system_vold" remote="github" revision="fb4a5135c684ff3a22efee525e0f83418c23ab9f"/>
+    <project path="system/vold" name="Yamada0001/android_system_vold" remote="github" revision="31534de0095d83b8be5e190a1679198d77290d6d"/>
 
     <!-- TWRP vendor build configuration. -->
     <project path="vendor/twrp" name="android_vendor_twrp" remote="twrp-16.0" revision="twrp-16.0" />
